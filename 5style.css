@@ -1,0 +1,276 @@
+/* Css File of Assignment 5 */ 
+
+
+/* Universal Selector :  */ 
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+} 
+
+h1{
+    font-size:30px;
+    color:rgba(214,103,13,255);
+    margin-top : 60px;
+    margin-left:300px;
+
+}
+
+.container {
+   
+    background-color:rgba(69,110,159,255);
+    border:1.8px solid rgba(76,105,139,255);
+    margin: 1em 25em;
+    height : 70vh;
+    width : 600px;
+    display: flex;
+    flex-direction: column;
+    
+   
+}   
+
+
+.header-section {
+
+    background-color: rgba(255,198,197,255);
+    background-image: linear-gradient(#ffdbda,#fba9a5);
+    height:10%; 
+    font-size: 1em;
+    border-bottom: 2px solid rgba(37,81,124,255); 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.nav-bar {
+    background-color: rgba(187,238,255,255);
+    background-image: linear-gradient(#e0f8fd,#9ceafa);
+    height:10%; 
+    text-align: center;
+    font-size: 1em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.container2 { 
+
+    background-color:rgba(69,110,159,255);
+    background-image: linear-gradient(#f4fde3,#d5eeaf);
+    margin : 0.25em 0.25em;
+    height : 45vh;
+    display: flex;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.section {
+   background-color: rgba(244,253,226,255);
+   background-image: linear-gradient(#f4fde3,#b6d3a1);
+   border: 1.5px solid linear-gradient(to left bottom, #DDFDAA , #789B7D);
+   width : 59vh;
+}  
+
+.section-head {
+    background-color: rgba(255,182,185,255);
+    background-image: linear-gradient(#fdd1d0,#dd8f89);
+    border: 1.5px solid  rgba(255,182,185,255);
+    border-radius : 4px;
+    margin : 5px 5px;
+    height : 15%; 
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+} 
+
+.article {
+    background-color: rgba(220,207,238,255);
+    background-image: linear-gradient(#efe6f9,#cbbae7);
+    border: 1.5px solid rgba(220,207,238,255);
+    border-radius: 4px;
+    height : 69%;
+    margin : 5px 5px 10px 5px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-bar {
+    margin : 0 0 0 5px;
+    background-color: rgba(225,224,225,255);
+    background-image: linear-gradient(#e9e9e9,#c0bfbd);
+    border : 1.5px solid rgba(225,224,225,255);
+    border-radius: 4px;
+    width:40vh; 
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.footer {
+    background-color: rgba(254,221,192,255);
+    background-image: linear-gradient(#ffe1cc,#fcc48c);
+    height :13%;
+    margin : 1px 0.8px 0.8px 0.8px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* Css File of Assignment 3 */ 
+
+
+/* Universal Selector :  */ 
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+} 
+
+h1{
+    font-size:30px;
+    color:rgba(214,103,13,255);
+    margin-top : 60px;
+    margin-left:300px;
+
+}
+
+.container {
+   
+    background-color:rgba(69,110,159,255);
+    border:1.8px solid rgba(76,105,139,255);
+    margin: 1em 25em;
+    height : 70vh;
+    width : 600px;
+    display: flex;
+    flex-direction: column;
+    
+   
+}   
+
+
+.header-section {
+
+    background-color: rgba(255,198,197,255);
+    background-image: linear-gradient(#ffdbda,#fba9a5);
+    height:10%; 
+    font-size: 1em;
+    border-bottom: 2px solid rgba(37,81,124,255); 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.nav-bar {
+    background-color: rgba(187,238,255,255);
+    background-image: linear-gradient(#e0f8fd,#9ceafa);
+    height:10%; 
+    text-align: center;
+    font-size: 1em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.container2 { 
+
+    background-color:rgba(69,110,159,255);
+    background-image: linear-gradient(#f4fde3,#d5eeaf);
+    margin : 0.25em 0.25em;
+    height : 45vh;
+    display: flex;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.section {
+   background-color: rgba(244,253,226,255);
+   background-image: linear-gradient(#f4fde3,#b6d3a1);
+   border: 1.5px solid linear-gradient(to left bottom, #DDFDAA , #789B7D);
+   width : 59vh;
+}  
+
+.section-head {
+    background-color: rgba(255,182,185,255);
+    background-image: linear-gradient(#fdd1d0,#dd8f89);
+    border: 1.5px solid  rgba(255,182,185,255);
+    border-radius : 4px;
+    margin : 5px 5px;
+    height : 15%; 
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+} 
+
+.article {
+    background-color: rgba(220,207,238,255);
+    background-image: linear-gradient(#efe6f9,#cbbae7);
+    border: 1.5px solid rgba(220,207,238,255);
+    border-radius: 4px;
+    height : 69%;
+    margin : 5px 5px 10px 5px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-bar {
+    margin : 0 0 0 5px;
+    background-color: rgba(225,224,225,255);
+    background-image: linear-gradient(#e9e9e9,#c0bfbd);
+    border : 1.5px solid rgba(225,224,225,255);
+    border-radius: 4px;
+    width:40vh; 
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.footer {
+    background-color: rgba(254,221,192,255);
+    background-image: linear-gradient(#ffe1cc,#fcc48c);
+    height :13%;
+    margin : 1px 0.8px 0.8px 0.8px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+

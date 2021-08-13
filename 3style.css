@@ -1,0 +1,104 @@
+/* Css File of Assignment 3 */ 
+
+
+/* Universal Selector :  */ 
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+/* container box Starts Here */ 
+
+.container {
+    margin-top: 20px;
+    margin-left: 30px;
+    border:2.5px solid grey; 
+    height: 95vh;
+    width:95vw;
+} 
+
+
+/* Header section starts Here.... */ 
+
+.head { 
+
+    margin : 1em 1em;
+    border : 2px solid green;
+    background-color:rgb(241, 241, 241);
+    color:black;
+    font-weight: bold; 
+    font-size: 1em;
+    text-align: center;
+    height: 15%; 
+    border-radius:15px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+/* Container 2 box Starts Here */ 
+
+.container2 {
+
+    width : 100%;
+    height: 64%; 
+    display: flex;
+    flex-direction: row;
+}  
+
+
+
+/* Left box starts here...  */ 
+
+.left-bar { 
+    font-size: 1em;
+    font-weight: bold; 
+    color:black;
+    background-color:rgb(241, 241, 241);
+    width:17%; 
+    text-align: center; 
+    border : 2px solid green;
+    border-radius: 15px;
+    margin : 1em 1em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+/* Main-content box starts here */ 
+
+.main-content {
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgb(241, 241, 241);
+    width:80%;
+    border-radius: 15px;
+    text-align: center; 
+    border : 2px solid green;
+    margin : 1em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+
+/* footer section starts here */ 
+
+
+.footer {
+    height:10.9vh;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: rgb(241, 241, 241);
+    border-radius: 15px;
+    text-align: center; 
+    border : 2px solid green;
+    margin : 0.8em 0.8em; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

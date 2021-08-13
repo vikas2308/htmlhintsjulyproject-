@@ -1,0 +1,177 @@
+/* Css File of Assignment 4 */ 
+
+
+/* Universal Selector :  */ 
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+} 
+
+.top
+{
+    text-align: center;
+    margin-bottom: 1px;
+}
+ 
+.container {
+    margin: 1em 25em;
+    height : 90vh;
+    width : 600px;
+    background-color:rgba(227,239,240,255);
+} 
+
+.head {
+
+    background-color: rgba(167,202,205,255);
+    border : 1px solid rgba(167,202,205,255);
+    height:13%;
+    color:black;
+    font-weight: bold; 
+    font-size: 1.2em;
+    text-align: center; 
+    padding:26px;
+} 
+
+/* container 2 - parent box  Starts here  */ 
+
+
+.container2 {
+   
+    height :40%; 
+    background-color: rgba(227,239,240,255);
+    border : 1px solid rgba(227,239,240,255);
+    display: flex;
+
+}  
+
+/* Child elements : */ 
+
+.box1 {
+    margin : 0.7em 0.7em;
+    background-color: rgba(167,202,205,255);
+    border : 1px solid rgba(167,202,205,255);
+    width : 68vw;
+    text-align: center;
+    font-weight: bold; 
+    font-size: 1.2em;
+    padding : 80px 20px;
+} 
+
+
+
+/* Nested Container */ 
+
+
+.Nested_container {
+    margin : 0.7em 0.7em;
+    
+    width : 100vh;
+}  
+
+
+/* Child Elements in the Nested_Container */ 
+
+.box2 {
+  
+    height : 70%;
+    padding: 55px 10px;
+    background-color: rgba(167,202,205,255);
+    border:1px solid rgba(167,202,205,255);
+    text-align: center;
+    font-weight: bold; 
+    font-size: 1.2em;
+    margin-bottom: 10px;
+
+} 
+
+.box3 {
+    background-color: rgba(206,217,17,255);
+    border : 1px solid  rgba(206,217,17,255);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    height : 25%;
+    padding : 14px 10px;
+}
+
+
+/* Container 2 Ends Here  */ 
+
+
+/* Container 3 starts here */ 
+
+.container3 {
+  
+    height: 19vh;
+    background-color: rgba(167,202,205,255); 
+    border: 1px solid rgba(167,202,205,255);
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0.20em 0.7em 0.18em 0.7em;
+    padding : 40px 10px;
+
+}
+
+/* Container 3 Ends Here */
+
+
+/* Container 4 starts here */ 
+
+.container4 {
+    
+    background-color: rgba(227,239,240,255);
+    border : 1px solid rgba(227,239,240,255);
+    height: 15%; 
+    display: flex;
+
+}
+  /* Container-4 : Child Elements  */
+                
+.box4 {
+    margin : 0.7em 0.7em;
+    background-color: rgba(167,202,205,255);
+    border : 1px solid rgba(167,202,205,255);
+    width : 329px;
+    text-align: center;
+    font-weight: bold; 
+    font-size: 1.2em;
+    padding : 13.5px 10px; 
+} 
+
+.box5 { 
+    width : 214px;
+    margin : 0.7em 0.7em;
+    background-color: forestgreen;
+    border : 1px solid rgba(206,217,17,255);
+    text-align: center;
+    font-weight: bold; 
+    font-size: 1.2em; 
+    padding : 20px 10px;
+
+
+}
+
+
+/* Container 4 Ends Here  */ 
+
+
+/* The Footer Starts Here */ 
+
+.footer {
+   
+    height: 9.5%;
+    background-color: rgba(167,202,205,255);
+    border : 1px solid rgba(167,202,205,255);
+    text-align: center;
+    font-weight: bold; 
+    font-size: 1.2em; 
+    padding: 15px 10px;
+
+} 
+
+
+/* The Footer Ends Here */ 
+

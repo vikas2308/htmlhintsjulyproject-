@@ -1,0 +1,37 @@
+.custom-btn {
+    background-color: rgb(8, 1, 39);
+    color: white !important;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.card-inner{
+    border: 2px solid;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(99, 39, 155);
+    margin: auto 5px;
+    margin-block-end: 8px;
+    
+}
+
+body {  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    height: 100vh;  
+    flex-wrap: wrap;  
+    padding: 1px;
+  }   
+
+p,h2 {
+    margin: 0;
+}
+
+p {
+    margin-bottom: 20px;
+}

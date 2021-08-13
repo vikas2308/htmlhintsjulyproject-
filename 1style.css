@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* class Selector :  */ 
+
+.container {
+    margin-top: 20px;
+    margin-left: 30px;
+    height: 95vh;
+    width:95vw;
+    border:3px solid black;
+} 
+
+/* Header container starts here .. */ 
+
+.head {
+    font-size: 2em;
+    text-align: center;
+    background-color: rgb(255, 227, 231);
+    height:16vh;
+    padding: 30px;
+} 
+
+/* Navigation bar  */
+
+.navigation-bar { 
+    font-size: 2em;
+    color:black;
+    background-color:violet;
+    text-align: center;
+    padding: 40px 100px;
+}
+
+
+/*  Main content box */ 
+
+.main-content { 
+    font-size: 2em;
+    color:black;
+    background-color:whitesmoke;
+    text-align: center;
+    padding: 140px;
+}   
+
+
+
+
+
+/*  The Footer Starts Here */ 
+
+.footer {
+    font-size: 2em;
+    color:black;
+    text-align: center;
+    background-color:blueviolet;
+    height: 13%; 
+    padding:25px;
+} 
